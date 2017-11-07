@@ -222,4 +222,12 @@ text-decoration: none;
     padding: 4px;
     width: 600px;
     margin-left: 16%;
+    background-color: #ff825a;
+    color:#fff;
+}
+.Main-body .goto-buttons{
+   outline: none;
+    margin: 10px 16%;
+    font-size: 20px;
+    
 }
