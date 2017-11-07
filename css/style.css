@@ -42,7 +42,7 @@ ul li {
 .social-media ul li a{
     /*background-image: url("C:\Users\Elfergane\Desktop\New folder\images\s.png");*/
     background-repeat: no-repeat;
-    background-image: url(../images/s2.png);
+    background-image: url(/images/social-media2.png);
     background-repeat: no-repeat;
     float: left;
     padding-right: 2px;
