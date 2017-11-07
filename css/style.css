@@ -16,11 +16,17 @@
     
 }
 
-.logo{
+.logo4{
     position: relative;
-    left: 60px;
+    left: 15px;
+    
     
 }
+.logo4 img{
+      width: 130px;
+    height: 87px;
+}
+
 .header{
     position: relative;
     top: 5px;
@@ -31,6 +37,10 @@
 ul li {
     list-style: none;
     display: inline-block;
+    border: 2px solid #C3ACAC;
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 100%;
     
 }
 .social-media::before{
@@ -42,15 +52,15 @@ ul li {
 .social-media ul li a{
     /*background-image: url("C:\Users\Elfergane\Desktop\New folder\images\s.png");*/
     background-repeat: no-repeat;
-    background-image: url(/images/social-media2.png);
+    background-image: url('../images/social-media2.png');;
     background-repeat: no-repeat;
     float: left;
     padding-right: 2px;
     position: relative;
     top: -17px;
     left: 102px;
-    height: 25px;
-    width: 30px;
+    height: 100%;
+    width: auto;
    
 }
 .social-media ul li.icon-facebook a {
@@ -77,30 +87,31 @@ body{
 .menue{
     float:right;
     width: auto;
-    height: 28px;
-    background-color: blue;
+    /*height: 28px;*/
+    background-color: #C3ACAC;
     position :relative;
-    top:55px;
+    top:45px;
+    border-radius: 20px;
+    font-size: 18px
    
     
 }
 .menue ul  li a{
-    text-decoration: none;
-    color: beige;
+text-decoration: none;
+    color: #241d19;
     
     cursor:default;
 }
 
 
 .menue ul li{
-    padding-top: 10px;
-    padding-left: 20px; 
-    padding-right: 20px;
+   padding: 10px 10px;
 }
-.menue ul :hover,.menue ul li :hover{
-    color: rgb(7, 59, 247);
+.menue ul  :hover {
+    color: #b46f6f;
     background-color: rgb(242, 246, 252);
     transition:.5s all  ease-in-out;
+    
     
 }
 
@@ -110,7 +121,7 @@ body{
 }
 .Main-body{
     position: absolute;
-    top:145px;
+    top:155px;
     width: 900px;
     /*border: 5px solid #f00;*/
     
